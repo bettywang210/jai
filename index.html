@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>宅即变｜空間微整型</title>
+	<link rel="shortcut icon" href="img/favicon.ico"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/jquery.mmenu.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script scr="js/jquery.mmenu.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/map.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			
+			$(".home-carousel").owlCarousel({
+				items: 1,
+				autoplay: true,
+				nav: true,
+				mouseDrag:false,
+				navText:['<i class="fa fa-angle-left fa-5x"></i>',
+						'<i class="fa fa-angle-right fa-5x"></i>'],
+				loop:true,
+			});
+
+			$('.owl-carousel').owlCarousel({
+			    loop:true,
+			    margin:10,
+			    nav: true,
+			    navText:['<i class="fa fa-angle-left fa-5x"></i>',
+						'<i class="fa fa-angle-right fa-5x"></i>'],
+			    dots:false,
+			    autoplay: true,
+			    autoplayTimeout:3000,
+			    autoplayHoverPause:true,
+			    mouseDrag:false,
+			    responsiveClass:true,
+			    responsive:{
+			        0:{
+			        	stagePadding: 50,
+			            items:1
+			        },
+			        600:{
+			        	stagePadding: 200,
+			            items:1
+			        },
+			        1000:{
+			        	stagePadding: 300,
+			            items:1
+			        },
+			        1500:{
+			        	stagePadding: 300,
+			            items:2
+			        }
+			    }
+			});
+
+			$(window).scroll(function(){
+
+				var $windowTop = $(window).scrollTop();
+
+				$('.animation').each(function(){
+					var $top = $(this).offset().top - 500;
+					if($windowTop > $top){
+						$(this).addClass('active');
+					}
+				});
+			});
+
+
+		})
+	</script>
+</head>
+<body class="home">
+	<header class="container">
+		<div class="links">
+			<div class="social">
+				<a href="https://www.facebook.com/hoem1111/" target="_blank">
+					<div class="icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+				</a>
+				<a href="https://www.instagram.com/homesos885/" target="_blank">
+					<div class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+				</a>
+			</div>
+		</div>
+		<a href="index.html">
+			<div class="logo">
+				<img src="img/logo.png" alt="">
+			</div>
+		</a>
+		<div class="m-menu">
+			<nav class="nav navbar-default">
+		        <div class="container-fluid">
+		            <div class="navbar-header">
+		                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		                	<i class="burger fa fa-bars"></i>
+		                </button>
+		                <!-- <a class="navbar-brand" href="#">
+		                	<img src="img/logo.png" alt="">
+		                </a> -->
+		            </div>
+		            <div class="collapse navbar-collapse" id="myNavbar">
+					<!--<i class="close fa fa-times-circle"></i> -->
+		                <ul class="nav navbar-nav">
+		                	<li><a href="index.html">首頁</a></li>
+		                    <li><a href="about_us.html">關於我們</a></li>
+		                    <li><a href="style.html">風格提案</a></li>
+		                    <li><a class="sub-menu" href="style_northern.html">北歐樂活</a></li>
+							<li><a class="sub-menu" href="style_american.html">美式簡約</a></li>
+							<li><a class="sub-menu" href="style_wood.html">木質療癒</a></li>
+							<li><a class="sub-menu" href="style_urban.html">現代都會</a></li>
+		                    <li><a href="packages.html">套裝專案</a></li>
+		                    <li><a href="service.html">服務流程</a></li>
+		                    <li><a href="events.html">近期活動</a></li>
+		                    <li><a href="jai-jai.html">宅宅家飾</a></li>
+		                    <li><a href="contact_us.html">聯絡我們</a></li>
+		                </ul>
+		            </div>
+		        </div>
+		    </nav> 
+		</div>
+		<nav class="container">
+			<ul class="menu">
+				<li><a href="about_us.html">關於我們</a></li>
+				<li>
+					<a href="style.html">風格提案</a>
+					<div class="son">
+						<div class="triangle"></div>
+						<ul class="sub-menu">
+							<li><a href="style_northern.html">北歐樂活</a></li>
+							<li><a href="style_american.html">美式簡約</a></li>
+							<li><a href="style_wood.html">木質療癒</a></li>
+							<li><a href="style_urban.html">現代都會</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="packages.html">套裝專案</a></li>
+				<li><a href="service.html">服務流程</a></li>
+				<li><a href="events.html">近期活動</a></li>
+				<li><a href="jai-jai.html">宅宅家飾</a></li>
+				<li><a href="contact_us.html">聯絡我們</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="banner">
+		<img class="roof" src="img/index/banner-top.png">
+		<div class="banner-carousel"> 
+			<h2>好的設計皆源自生活</h2>
+			<div class="home-carousel owl-carousel owl-theme">
+				<div>
+					<a href="style_american.html">
+						<div class="pic" style="background-image: url(img/index/banner1.jpg)">
+							
+						</div>
+					</a>
+				</div>
+				<div>
+					<a href="style_urban.html">
+						<div class="pic" style="background-image: url(img/index/banner2.jpg)"></div>
+					</a>
+				</div>
+				<div>
+					<a href="style_urban.html">
+						<div class="pic" style="background-image: url(img/index/banner3.jpg)"></div>
+					</a>
+				</div>
+				<div>
+					<a href="style_wood.html">
+						<div class="pic" style="background-image: url(img/index/banner4.jpg)"></div>
+					</a>
+				</div>
+				<div>
+					<a href="style_northern.html">
+						<div class="pic" style="background-image: url(img/index/banner5.jpg)"></div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="about animation">
+		<div class="container">
+			<div class="mobile icon-title">
+				<img class="icon" src="img/about/icon_team.png" alt="">
+				<h2>關於我們</h2>
+			</div>
+			<div class="pic bg-setting" style="background-image: url(img/index/about_us.jpg)"></div>
+			<div class="text">
+				<div class="icon-title">
+					<img class="icon" src="img/about/icon_team.png" alt="">
+					<h2>關於我們</h2>
+				</div>
+				<h3>宅即变空間微整型</h3>
+				<p>從事空間設計工作十多年，在追求風格與美感過後，逐漸體悟到設計與生活不可分割，空間不只是一個硬殼，他應是乘載我們的容器...</p>
+				<a class="btn-more" href="about_us.html">MORE</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</section>
+
+	<section class="style animation">
+		<div class="icon-title">
+			<img class="icon" src="img/style/icon_sofa.png" alt="icon_sofa">
+			<h2>風格提案</h2>
+		</div>
+		<div class="house-selection">
+			<a href="style_northern.html">
+				<div class="house">
+					<div class="outline_house bg-setting" style="background-image: url(img/style/outline_house.png)"></div>
+					<div class="style-bg bg-setting" style="background-image: url(img/style/style_northern.jpg)"></div>
+					<div class="overlay bg-setting" style="background-image: url(img/style/overlay.png)"></div>
+					<h5>北歐樂活</h5>
+				</div>	
+			</a>
+			<a href="style_american.html">
+				<div class="house">
+					<div class="outline_house bg-setting" style="background-image: url(img/style/outline_house.png)"></div>
+					<div class="style-bg bg-setting" style="background-image: url(img/style/style_american.jpg)"></div>
+					<div class="overlay bg-setting" style="background-image: url(img/style/overlay.png)"></div>
+					<h5>美式簡約</h5>
+				</div>	
+			</a>
+			<a href="style_wood.html">
+				<div class="house">
+					<div class="outline_house bg-setting" style="background-image: url(img/style/outline_house.png)"></div>
+					<div class="style-bg bg-setting" style="background-image: url(img/style/style_wood.jpg)"></div>
+					<div class="overlay bg-setting" style="background-image: url(img/style/overlay.png)"></div>
+					<h5>木質療癒</h5>
+				</div>	
+			</a>
+			<a href="style_urban.html">
+				<div class="house">
+					<div class="outline_house bg-setting" style="background-image: url(img/style/outline_house.png)"></div>
+					<div class="style-bg bg-setting" style="background-image: url(img/style/style_urban.jpg)"></div>
+					<div class="overlay bg-setting" style="background-image: url(img/style/overlay.png)"></div>
+					<h5>現代都會</h5>
+				</div>	
+			</a>
+		</div>
+	</section>
+
+	<section class="packages">
+		<div class="icon-title">
+			<img class="icon" src="img/index/icon_packages.png" alt="icon_packages">
+			<h2>套裝專案</h2>
+		</div>
+		<a href="packages.html"><div class="pic bg-setting"></div></a>
+	</section>
+
+	<section class="case">
+		<div class="icon-title">
+			<img class="icon" src="img/index/icon_case.png" alt="icon_case">
+			<h2>案例分享</h2>
+		</div>
+		<div class="case-carousel owl-carousel owl-theme">
+		    <div class="item">
+		    	<a href="style_american.html">
+					<div class="img bg-setting" style="background-image: url(img/style/american1_1_1.jpg);">
+						<div class="overlay"></div>
+						<div class="pic-text">美式簡約風 01</div>
+					</div>
+				</a>
+		    </div>
+		    <div class="item">
+		    	<a href="style_urban.html">
+					<div class="img bg-setting" style="background-image: url(img/style/urban1_1_1.jpg);">
+						<div class="overlay"></div>
+						<div class="pic-text">現代都會風 01</div>
+					</div>
+				</a>
+		    </div>
+		    <div class="item">
+		    	<a href="style_wood.html">
+					<div class="img bg-setting" style="background-image: url(img/style/wood1_1_1.jpg);">
+						<div class="overlay"></div>
+						<div class="pic-text">清新木質風 01</div>
+					</div>
+				</a>
+		    </div>
+		    <div class="item">
+		    	<a href="style_northern.html">
+					<div class="img bg-setting" style="background-image: url(img/style/north1_1_1.jpg);">
+						<div class="overlay"></div>
+						<div class="pic-text">北歐樂活風 01</div>
+					</div>
+				</a>
+		    </div>     
+		</div>
+	</section>
+
+	<!-- <section class="events">
+		<div class="container">
+			<div class="mobile icon-title">
+				<img class="icon" src="img/events/icon_events.png" alt="events">
+				<h2>近期活動</h2>
+			</div>
+			<div class="left-title">
+				<div class="icon-title">
+					<img class="icon" src="img/events/icon_events.png" alt="events">
+					<h2>近期活動</h2>
+				</div>
+			</div>
+			<div class="events-info">
+				<div class="year">2018</div>
+				<div class="date">
+					<h5 class="month">04</h5>
+					<img class="deco" src="img/events/events_date.png" alt="">
+					<h5 class="day">14</h5>
+					<span class="week">(Sat.)</span>
+				</div>
+				<div class="text">
+					<h3>收納究極 : 幸福居家養成法</h3>
+					<h6>最好的設計，源自於生活。</h6>
+					<a href="#">
+						<div class="btn">詳細內容</div>
+					</a>
+				</div>
+			</div>
+			<div class="events-image" style="background-image:url(img/events/events_img.jpg)"></div>
+			<div class="clearfix"></div>
+		</div>
+	</section> -->
+	<section class="events">
+		<div class="container">
+			<div class="icon-title">
+				<img class="icon" src="img/events/icon_events.png" alt="events">
+				<h2>近期活動</h2>
+			</div>
+			<div class="row">
+				<div class="col-sm-4 col-xs-12">
+					<a href="#">
+						<div class="events-img bg-setting" style="background-image: url(img/events/events_img.jpg);">
+							<div class="overlay"></div>
+						</div>
+					</a>
+					<div class="info">
+						<div class="year">2018</div>
+						<div class="date">
+							<h5 class="month">06</h5>
+							<img class="deco" src="img/events/events_date.png" alt="">
+							<h5 class="day">08</h5>
+							<span class="week">(Sat.)</span>
+						</div>
+						<div class="text">
+							<h3>收納究極 : 幸福居家養成法</h3>
+							<h6>最好的設計，源自於生活。</h6>
+						</div>
+						<a href="#">
+							<div class="btn">我要報名</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-12">
+					<a href="#">
+						<div class="events-img bg-setting" style="background-image: url(img/events/events_img.jpg);">
+							<div class="overlay"></div>
+						</div>
+					</a>
+					<div class="info">
+						<div class="year">2018</div>
+						<div class="date">
+							<h5 class="month">06</h5>
+							<img class="deco" src="img/events/events_date.png" alt="">
+							<h5 class="day">09</h5>
+							<span class="week">(Sat.)</span>
+						</div>
+						<div class="text">
+							<h3>收納究極 : 幸福居家養成法</h3>
+							<h6>最好的設計，源自於生活。</h6>
+						</div>
+						<a href="#">
+							<div class="btn">我要報名</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-12">
+					<a href="#">
+						<div class="events-img bg-setting" style="background-image: url(img/events/events_img.jpg);">
+							<div class="overlay"></div>
+						</div>
+					</a>
+					<div class="info">
+						<div class="year">2018</div>
+						<div class="date">
+							<h5 class="month">06</h5>
+							<img class="deco" src="img/events/events_date.png" alt="">
+							<h5 class="day">10</h5>
+							<span class="week">(Sat.)</span>
+						</div>
+						<div class="text">
+							<h3>收納究極 : 幸福居家養成法</h3>
+							<h6>最好的設計，源自於生活。</h6>
+						</div>
+						<a href="#">
+							<div class="btn">我要報名</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</section>
+	
+	<section class="coming">
+		<div class="bg-setting" style="background-image: url(img/index/coming_soon.jpg);">
+			<div class="text">
+				<h3>2018.6 宅宅家具配飾</h3>
+				<h4>即將與您相見</h4>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="footer-content">
+				<div class="icon-title">
+					<img class="icon" src="img/icon_phone.png" alt="icon">
+					<h2>聯絡我們</h2>
+				</div>
+				<ul class="text">
+					<li><div class="title">營業時間</div>9:00 - 18:00</li>
+					<li><div class="title">諮詢電話</div>02 2546 0808</li>
+					<li><div class="title">傳真</div>02 2546 8585</li>
+					<li class="address">台北市松山區民權東路三段106巷15弄25號7F</li>
+					<li>(捷運文湖線/中山國中站)</li>
+				</ul>
+				<div class="links">
+					<a href="https://www.facebook.com/hoem1111/" target="_blank">
+						<div class="icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+					</a>
+					<a href="https://www.instagram.com/homesos885/" target="_blank">
+						<div class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+					</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<!-- 地圖區塊 -->
+			<div class="map" id="map"></div>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAb8t0x4Mx90123f9tx3FnMQjXOp4KZjkU&callback=initMap"></script>
+			<div class="clearfix"></div>
+		    <!-- 地圖區塊 -->
+			<div class="clearfix"></div>
+			<div class="footer-logo">
+				<a href="index.html">
+					<div class="logo"><img src="img/logo.png" alt=""></div>
+				</a>
+				<p><span>宅即變</span><span>空間微整型</span><span>ALL RIGHTS RESERVED.</span></p>
+			</div>
+		</div>
+		<!-- To Top Button -->
+		<a href="#" class="back-to-top">
+			<i class="fa fa-angle-double-up"></i></a>
+		<script>
+		jQuery(document).ready(function() {
+		var offset = 220;
+		var duration = 500;
+		jQuery(window).scroll(function() {
+		if (jQuery(this).scrollTop() > offset) {
+		jQuery('.back-to-top').fadeIn(duration);
+		} else {
+		jQuery('.back-to-top').fadeOut(duration);
+		}
+		});
+
+		jQuery('.back-to-top').click(function(event) {
+		event.preventDefault();
+		jQuery('html, body').animate({scrollTop: 0}, duration);
+		return false;
+		})
+		});
+		</script>	
+	</footer>
+</body>
+</html>

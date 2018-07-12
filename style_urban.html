@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>宅即变 - 現代都會</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/jquery.mmenu.css">
+	<link rel="stylesheet" type="text/css" href="css/fresco/fresco.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<script src="js/map.js"></script>
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script scr="js/jquery.mmenu.js"></script>
+	<script type="text/javascript" src="js/fresco.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			var $li = $('ul.tab-wrap li');
+
+        $li.click(function(){
+            $($(this).find('a'). attr ('href')).addClass('active'). siblings ('.active').removeClass('active');
+            $(this).addClass('active'). siblings ('.active').removeClass('active');
+        });
+        
+	    })
+	</script>
+</head>
+<body>
+	<header class="container">
+		<div class="links">
+			<a href="https://www.facebook.com/hoem1111/" target="_blank">
+				<div class="icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+			</a>
+			<a href="https://www.instagram.com/homesos885/" target="_blank">
+				<div class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+			</a>
+		</div>	
+		<a href="index.html">
+			<div class="logo"><img src="img/logo.png" alt=""></div>
+		</a>
+		<div class="m-menu">
+			<nav class="nav navbar-default">
+		        <div class="container-fluid">
+		            <div class="navbar-header">
+		                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		                	<i class="burger fa fa-bars"></i>
+		                </button>
+		                <!-- <a class="navbar-brand" href="#">
+		                	<img src="img/logo.png" alt="">
+		                </a> -->
+		            </div>
+		            <div class="collapse navbar-collapse" id="myNavbar">
+		                <ul class="nav navbar-nav">
+		                	<li><a href="index.html">首頁</a></li>
+		                    <li><a href="about_us.html">關於我們</a></li>
+		                    <li><a href="style.html">風格提案</a></li>
+		                    <li><a class="sub-menu" href="style_northern.html">北歐樂活</a></li>
+							<li><a class="sub-menu" href="style_american.html">美式簡約</a></li>
+							<li><a class="sub-menu" href="style_wood.html">木質療癒</a></li>
+							<li><a class="sub-menu" href="style_urban.html">現代都會</a></li>
+		                    <li><a href="packages.html">套裝專案</a></li>
+		                    <li><a href="service.html">服務流程</a></li>
+		                    <li><a href="events.html">近期活動</a></li>
+		                    <li><a href="jai-jai.html">宅宅家飾</a></li>
+		                    <li><a href="contact_us.html">聯絡我們</a></li>
+		                </ul>
+		            </div>
+		        </div>
+		    </nav> 
+		</div>
+		<nav class="container">
+			<ul class="menu">
+				<li><a href="about_us.html">關於我們</a></li>
+				<li>
+					<a href="style.html">風格提案</a>
+					<div class="son">
+						<div class="triangle"></div>
+						<ul class="sub-menu">
+							<li><a href="style_northern.html">北歐樂活</a></li>
+							<li><a href="style_american.html">美式簡約</a></li>
+							<li><a href="style_wood.html">木質療癒</a></li>
+							<li><a href="style_urban.html">現代都會</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="packages.html">套裝專案</a></li>
+				<li><a href="service.html">服務流程</a></li>
+				<li><a href="events.html">近期活動</a></li>
+				<li><a href="jai-jai.html">宅宅家飾</a></li>
+				<li><a href="contact_us.html">聯絡我們</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="style-select">
+		<div class="container">
+			<div class="icon-title">
+			<h2>現代都會</h2>
+			</div>
+			<div>
+				<ul class="tab-wrap style-selection">
+					<li class="selection-box">
+						<a href="#tab-a">
+							<div class="style-bg bg-setting"  style="background-image: url(img/style/urban1_1_1.jpg);"></div>
+							<div class="overlay bg-setting"></div>
+							<h5>極簡都會風</h5>
+						</a>
+					</li>
+					<li class="selection-box">
+						<a href="#tab-b">
+							<div class="style-bg bg-setting"  style="background-image: url(img/style/urban2_3_1.jpg);"></div>
+							<div class="overlay bg-setting"></div>
+							<h5>時尚都會風</h5>
+						</a>
+					</li>
+					<li class="selection-box">
+						<a href="#tab-c">
+							<div class="style-bg bg-setting"  style="background-image: url(img/style/urban3_3_1.jpg);"></div>
+							<div class="overlay bg-setting"></div>
+							<h5>輕奢都會風</h5>
+						</a>
+					</li>
+					<div class="clearfix"></div>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="style-detail">
+<!-- 01極簡都會風 Start -->
+		<div id="tab-a" class="inside container active">
+			<div class="icon-title">
+				<h2>極簡都會風</h2>
+			</div>
+			<div class="style-info">
+			    <ul class="tab-wrap style-info-left">
+			        <li class="active"><a href="#tab1" title=""><h5>極簡都會風 01</h5></a></li>
+			        <li><a href="#tab2" title=""><h5>極簡都會風 02</h5></a></li>
+			        <li><a href="#tab3" title=""><h5>極簡都會風 03</h5></a></li>
+			    </ul>
+			    <div id="tab1" class="inside active">
+			        <ul class="style-info-right">
+						<li>
+							<p class="title"><img src="img/style/icon_house.png" alt="icon">屋齡</p>
+							<p class="content">1年</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_stationery.png" alt="icon">坪數</p>
+							<p class="content">27.12坪</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_average.png" alt="icon">預算</p>
+							<p class="content">81萬 / 不含家具、電器(冷氣、廚具、衛浴)</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_bed.png" alt="icon">空間配置</p>
+							<p class="content">2+1房</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_fill_color.png" alt="icon">使用建材</p>
+							<p class="content">環保水泥漆、歐規系統板材、德國超耐磨地板、日規矽酸鈣板</p>
+							<div class="clearfix"></div>
+						</li>
+					</ul>
+					<div class="clearfix"></div>
+					<a class="fresco" data-fresco-group="urban1-1" href="img/style/urban1_1_1.jpg">
+						<div class="style-image">
+							<div class="img bg-setting" style="background-image: url(img/style/urban1_1_1.jpg)"></div>
+						</div>
+					</a>
+					<div class="style-image-small">
+						<ul class="line">
+							<li>
+								<a class="fresco" data-fresco-group="urban1-1" href="img/style/urban1_1_2.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban1_1_2.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban1-1" href="img/style/urban1_1_3.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban1_1_3.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban1-1" href="img/style/urban1_1_4.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban1_1_4.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban1-1" href="img/style/urban1_1_5.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban1_1_5.jpg)"></div>
+								</a>
+							</li>
+							<div class="clearfix"></div>
+						</ul>
+					</div>
+			    </div>
+			    <div id="tab2" class="inside">
+			        <ul class="style-info-right">
+						<li>
+							<p class="title"><img src="img/style/icon_house.png" alt="icon">屋齡</p>
+							<p class="content">1年</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_stationery.png" alt="icon">坪數</p>
+							<p class="content">36.87坪</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_average.png" alt="icon">預算</p>
+							<p class="content">112萬 / 不含家具、電器(冷氣、廚具、衛浴)</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_bed.png" alt="icon">空間配置</p>
+							<p class="content">3房</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_fill_color.png" alt="icon">使用建材</p>
+							<p class="content">環保水泥漆、歐規系統板材、德國超耐磨地板、日規矽酸鈣板、訂製鐵件</p>
+							<div class="clearfix"></div>
+						</li>
+						<div class="clearfix"></div>
+					</ul>
+					<div class="clearfix"></div>
+					<a class="fresco" data-fresco-group="urban1-2" href="img/style/urban1_2_1.jpg">
+						<div class="style-image">
+							<div class="img bg-setting" style="background-image: url(img/style/urban1_2_1.jpg)"></div>
+						</div>
+					</a>
+					<div class="style-image-small">
+						<ul class="line">
+							<li>
+								<a class="fresco" data-fresco-group="urban1-2" href="img/style/urban1_2_2.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban1_2_2.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban1-2" href="img/style/urban1_2_3.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban1_2_3.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban1-2" href="img/style/urban1_2_4.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban1_2_4.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban1-2" href="img/style/urban1_2_5.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban1_2_5.jpg)"></div>
+								</a>
+							</li>
+							<div class="clearfix"></div>
+						</ul>
+					</div>
+			    </div>
+			    <div id="tab3" class="inside">
+			       <ul class="style-info-right">
+						<li>
+							<p class="title"><img src="img/style/icon_house.png" alt="icon">屋齡</p>
+							<p class="content">1年</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_stationery.png" alt="icon">坪數</p>
+							<p class="content">34.67坪</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_average.png" alt="icon">預算</p>
+							<p class="content">106萬 / 不含家具、電器(冷氣、廚具、衛浴)</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_bed.png" alt="icon">空間配置</p>
+							<p class="content">3房</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_fill_color.png" alt="icon">使用建材</p>
+							<p class="content">環保水泥漆、歐規系統板材、德國超耐磨地板、日規矽酸鈣板、訂製鐵件</p>
+							<div class="clearfix"></div>
+						</li>
+						<div class="clearfix"></div>
+					</ul>
+					<div class="clearfix"></div>
+					<a class="fresco" data-fresco-group="urban1-3" href="img/style/urban1_3_1.jpg">
+						<div class="style-image">
+							<div class="img bg-setting" style="background-image: url(img/style/urban1_3_1.jpg)"></div>
+						</div>
+					</a>
+					<div class="style-image-small">
+						<ul class="line">
+							<li>
+								<a class="fresco" data-fresco-group="urban1-3" href="img/style/urban1_3_2.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban1_3_2.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban1-3" href="img/style/urban1_3_3.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban1_3_3.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban1-3" href="img/style/urban1_3_4.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban1_3_4.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban1-3" href="img/style/urban1_3_5.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban1_3_5.jpg)"></div>
+								</a>
+							</li>
+							<div class="clearfix"></div>
+						</ul>
+					</div>
+			    </div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+<!-- 01極簡都會風 End -->
+<!-- 02時尚都會風 Start -->
+		<div id="tab-b" class="inside container">
+			<div class="icon-title">
+				<h2>時尚都會風</h2>
+			</div>
+			<div class="style-info">
+			    <ul class="tab-wrap style-info-left">
+			        <li class="active"><a href="#tab4" title=""><h5>時尚都會風 01</h5></a></li>
+			        <li><a href="#tab5" title=""><h5>時尚都會風 02</h5></a></li>
+			        <li><a href="#tab6" title=""><h5>時尚都會風 03</h5></a></li>
+			    </ul>
+			    <div id="tab4" class="inside active">
+			        <ul class="style-info-right">
+						<li>
+							<p class="title"><img src="img/style/icon_house.png" alt="icon">屋齡</p>
+							<p class="content">2年</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_stationery.png" alt="icon">坪數</p>
+							<p class="content">48.86坪</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_average.png" alt="icon">預算</p>
+							<p class="content">147萬 / 不含家具、電器(冷氣、廚具、衛浴)</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_bed.png" alt="icon">空間配置</p>
+							<p class="content">3+1房</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_fill_color.png" alt="icon">使用建材</p>
+							<p class="content">環保水泥漆、歐規系統板材、德國超耐磨地板、日規矽酸鈣板</p>
+							<div class="clearfix"></div>
+						</li>
+					</ul>
+					<div class="clearfix"></div>
+					<a class="fresco" data-fresco-group="urban2-1" href="img/style/urban2_1_1.jpg">
+						<div class="style-image">
+							<div class="img bg-setting" style="background-image: url(img/style/urban2_1_1.jpg)"></div>
+						</div>
+					</a>
+					<div class="style-image-small">
+						<ul class="line">
+							<li>
+								<a class="fresco" data-fresco-group="urban2-1" href="img/style/urban2_1_2.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban2_1_2.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban2-1" href="img/style/urban2_1_3.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban2_1_3.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban2-1" href="img/style/urban2_1_4.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban2_1_4.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban2-1" href="img/style/urban2_1_5.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban2_1_5.jpg)"></div>
+								</a>
+							</li>
+							<div class="clearfix"></div>
+						</ul>
+					</div>
+			    </div>
+			    <div id="tab5" class="inside">
+			        <ul class="style-info-right">
+						<li>
+							<p class="title"><img src="img/style/icon_house.png" alt="icon">屋齡</p>
+							<p class="content">2年</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_stationery.png" alt="icon">坪數</p>
+							<p class="content">45坪</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_average.png" alt="icon">預算</p>
+							<p class="content">103萬 / 不含家具、電器(冷氣、廚具、衛浴)</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_bed.png" alt="icon">空間配置</p>
+							<p class="content">3房</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_fill_color.png" alt="icon">使用建材</p>
+							<p class="content">環保水泥漆、歐規系統板材、德國超耐磨地板、日規矽酸鈣板、天然木皮</p>
+							<div class="clearfix"></div>
+						</li>
+						<div class="clearfix"></div>
+					</ul>
+					<div class="clearfix"></div>
+					<a class="fresco" data-fresco-group="urban2-2" href="img/style/urban2_2_1.jpg">
+						<div class="style-image">
+							<div class="img bg-setting" style="background-image: url(img/style/urban2_2_1.jpg)"></div>
+						</div>
+					</a>
+					<div class="style-image-small">
+						<ul class="line">
+							<li>
+								<a class="fresco" data-fresco-group="urban2-2" href="img/style/urban2_2_2.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban2_2_2.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban2-2" href="img/style/urban2_2_3.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban2_2_3.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban2-2" href="img/style/urban2_2_4.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban2_2_4.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban2-2" href="img/style/urban2_2_5.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban2_2_5.jpg)"></div>
+								</a>
+							</li>
+							<div class="clearfix"></div>
+						</ul>
+					</div>
+			    </div>
+			    <div id="tab6" class="inside">
+			       <ul class="style-info-right">
+						<li>
+							<p class="title"><img src="img/style/icon_house.png" alt="icon">屋齡</p>
+							<p class="content">1年</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_stationery.png" alt="icon">坪數</p>
+							<p class="content">38.73坪</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_average.png" alt="icon">預算</p>
+							<p class="content">117萬 / 不含家具、電器(冷氣、廚具、衛浴)</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_bed.png" alt="icon">空間配置</p>
+							<p class="content">3房</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_fill_color.png" alt="icon">使用建材</p>
+							<p class="content">環保水泥漆、歐規系統板材、德國超耐磨地板、日規矽酸鈣板</p>
+							<div class="clearfix"></div>
+						</li>
+						<div class="clearfix"></div>
+					</ul>
+					<div class="clearfix"></div>
+					<a class="fresco" data-fresco-group="urban2-3" href="img/style/urban2_3_1.jpg">
+						<div class="style-image">
+							<div class="img bg-setting" style="background-image: url(img/style/urban2_3_1.jpg)"></div>
+						</div>
+					</a>
+					<div class="style-image-small">
+						<ul class="line">
+							<li>
+								<a class="fresco" data-fresco-group="urban2-3" href="img/style/urban2_3_2.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban2_3_2.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban2-3" href="img/style/urban2_3_3.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban2_3_3.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban2-3" href="img/style/urban2_3_4.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban2_3_4.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban2-3" href="img/style/urban2_3_5.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban2_3_5.jpg)"></div>
+								</a>
+							</li>
+							<div class="clearfix"></div>
+						</ul>
+					</div>
+			    </div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+<!-- 02時尚都會風 End -->
+<!-- 03輕奢都會風 Start -->
+		<div id="tab-c" class="inside container">
+			<div class="icon-title">
+				<h2>輕奢都會風</h2>
+			</div>
+			<div class="style-info">
+			    <ul class="tab-wrap style-info-left">
+			        <li class="active"><a href="#tab7" title=""><h5>輕奢都會風 01</h5></a></li>
+			        <li><a href="#tab8" title=""><h5>輕奢都會風 02</h5></a></li>
+			        <li><a href="#tab9" title=""><h5>輕奢都會風 03</h5></a></li>
+			    </ul>
+			    <div id="tab7" class="inside active">
+			        <ul class="style-info-right">
+						<li>
+							<p class="title"><img src="img/style/icon_house.png" alt="icon">屋齡</p>
+							<p class="content">2年</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_stationery.png" alt="icon">坪數</p>
+							<p class="content">26坪</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_average.png" alt="icon">預算</p>
+							<p class="content">104萬 / 不含家具、電器(冷氣、廚具、衛浴)</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_bed.png" alt="icon">空間配置</p>
+							<p class="content">2房</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_fill_color.png" alt="icon">使用建材</p>
+							<p class="content">環保水泥漆、歐規系統板材、德國超耐磨地板、日規矽酸鈣板、訂製鐵件</p>
+							<div class="clearfix"></div>
+						</li>
+					</ul>
+					<div class="clearfix"></div>
+					<a class="fresco" data-fresco-group="urban3-1" href="img/style/urban3_1_1.jpg">
+						<div class="style-image">
+							<div class="img bg-setting" style="background-image: url(img/style/urban3_1_1.jpg)"></div>
+						</div>
+					</a>
+					<div class="style-image-small">
+						<ul class="line">
+							<li>
+								<a class="fresco" data-fresco-group="urban3-1" href="img/style/urban3_1_2.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban3_1_2.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban3-1" href="img/style/urban3_1_3.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban3_1_3.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban3-1" href="img/style/urban3_1_4.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban3_1_4.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban3-1" href="img/style/urban3_1_5.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban3_1_5.jpg)"></div>
+								</a>
+							</li>
+							<div class="clearfix"></div>
+						</ul>
+					</div>
+			    </div>
+			    <div id="tab8" class="inside">
+			        <ul class="style-info-right">
+						<li>
+							<p class="title"><img src="img/style/icon_house.png" alt="icon">屋齡</p>
+							<p class="content">2年</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_stationery.png" alt="icon">坪數</p>
+							<p class="content">24坪</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_average.png" alt="icon">預算</p>
+							<p class="content">96萬 / 不含家具、電器(冷氣、廚具、衛浴）</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_bed.png" alt="icon">空間配置</p>
+							<p class="content">2房</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_fill_color.png" alt="icon">使用建材</p>
+							<p class="content">環保水泥漆、歐規系統板材、德國超耐磨地板、日規矽酸鈣板</p>
+							<div class="clearfix"></div>
+						</li>
+						<div class="clearfix"></div>
+					</ul>
+					<div class="clearfix"></div>
+					<a class="fresco" data-fresco-group="urban3-2" href="img/style/urban3_2_1.jpg">
+						<div class="style-image">
+							<div class="img bg-setting" style="background-image: url(img/style/urban3_2_1.jpg)"></div>
+						</div>
+					</a>
+					<div class="style-image-small">
+						<ul class="line">
+							<li>
+								<a class="fresco" data-fresco-group="urban3-2" href="img/style/urban3_2_2.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban3_2_2.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban3-2" href="img/style/urban3_2_3.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban3_2_3.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban3-2" href="img/style/urban3_2_4.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban3_2_4.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban3-2" href="img/style/urban3_2_5.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban3_2_5.jpg)"></div>
+								</a>
+							</li>
+							<div class="clearfix"></div>
+						</ul>
+					</div>
+			    </div>
+			    <div id="tab9" class="inside">
+			       <ul class="style-info-right">
+						<li>
+							<p class="title"><img src="img/style/icon_house.png" alt="icon">屋齡</p>
+							<p class="content">1年</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_stationery.png" alt="icon">坪數</p>
+							<p class="content">53坪</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_average.png" alt="icon">預算</p>
+							<p class="content">234萬 / 不含家具、電器(冷氣、廚具、衛浴）</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_bed.png" alt="icon">空間配置</p>
+							<p class="content">3房</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<p class="title"><img src="img/style/icon_fill_color.png" alt="icon">使用建材</p>
+							<p class="content">環保水泥漆、歐規系統板材、德國超耐磨地板、日規矽酸鈣板、訂製鐵件</p>
+							<div class="clearfix"></div>
+						</li>
+						<div class="clearfix"></div>
+					</ul>
+					<div class="clearfix"></div>
+					<a class="fresco" data-fresco-group="urban3-3" href="img/style/urban3_3_1.jpg">
+						<div class="style-image">
+							<div class="img bg-setting" style="background-image: url(img/style/urban3_3_1.jpg)"></div>
+						</div>
+					</a>
+					<div class="style-image-small">
+						<ul class="line">
+							<li>
+								<a class="fresco" data-fresco-group="urban3-3" href="img/style/urban3_3_2.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban3_3_2.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban3-3" href="img/style/urban3_3_3.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban3_3_3.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban3-3" href="img/style/urban3_3_4.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban3_3_4.jpg)"></div>
+								</a>
+							</li>
+							<li>
+								<a class="fresco" data-fresco-group="urban3-3" href="img/style/urban3_3_5.jpg">
+									<div class="img bg-setting" style="background-image:url(img/style/urban3_3_5.jpg)"></div>
+								</a>
+							</li>
+							<div class="clearfix"></div>
+						</ul>
+					</div>
+			    </div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</section>
+<!-- 03經典美式風 End -->
+
+	<footer>
+		<div class="container">
+			<div class="footer-content icon-title">
+				<img class="icon" src="img/icon_phone.png" alt="icon">
+				<h2>聯絡我們</h2>
+				<ul class="text">
+				     <li><div class="title">營業時間</div>9:00 - 18:00</li>
+				     <li><div class="title">諮詢電話</div>02 2546 0808</li>
+				     <li><div class="title">傳真</div>02 2546 8585</li>
+				     <li class="address">台北市松山區民權東路三段106巷15弄25號7F</li>
+				     <li>(捷運文湖線/中山國中站)</li>
+			    </ul>
+				<div class="links">
+					<a href="https://www.facebook.com/hoem1111/" target="_blank">
+						<div class="icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+					</a>
+					<a href="https://www.instagram.com/homesos885/" target="_blank">
+						<div class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+					</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<!-- 地圖區塊 -->
+			<div id="map"></div>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAb8t0x4Mx90123f9tx3FnMQjXOp4KZjkU&callback=initMap"></script>
+			<div class="clearfix"></div>
+		    <!-- 地圖區塊 -->
+			<div class="clearfix"></div>
+			<div class="footer-logo">
+				<a href="index.html">
+					<div class="logo"><img src="img/logo.png" alt=""></div>
+				</a>
+				<p><span>宅即变</span><span>空間微整型</span><span>ALL RIGHTS RESERVED.</span></p>
+			</div>
+		</div>	
+	</footer>
+</body>
+</html>
